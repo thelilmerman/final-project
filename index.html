@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<title>VIRGIL THOMAS</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<style>
+h1,h2,h3,h4,h5,h6 {font-family: "Oswald"}
+body {font-family: "Open Sans"}
+</style>
+<body class="w3-light-grey">
+
+<!-- Navigation bar with social media icons -->
+<div class="w3-bar w3-black w3-hide-small">
+  <a href="https://drive.google.com/file/d/0B6GKnOIQdc86Vm82b09mY1gxWFE/view?usp=sharin" class="w3-bar-item w3-button">    <i class="glyphicon glyphicon-file"></i></a>
+  <a href="https://www.linkedin.com/in/virgilthomas/" class="w3-bar-item w3-button"><i class="fa fa-linkedin"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-right"><i class="fa fa-search"></i></a>
+</div>
+  
+<!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content, w3-center" style="max-width:1600px">
+
+  <!-- Header -->
+  <header class="w3-container w3-center w3-padding-48 w3-white">
+    <h1 class="w3-xxxlarge"><b>VIRGIL THOMAS</b></h1>
+    <h3><span class="w3-tag">graphic design</span></h3>
+  </header>
+
+  <!-- Image header -->
+  <header class="w3-display-container w3-wide w3-center" id="home">
+    <img class="w3-image" src="img/banner.portfolio.jpg" alt="LOGO" width="1600" height="1000">
+
+    <div class="w3-display-left w3-padding-large">
+      <h1 class="w3-center w3-text-black w3-hide-small"><b>PORTFOLIO</b></h1>
+
+    </div>
+  </header>
+
+  <!-- Grid -->
+  <div class="w3-row w3-padding w3-border">
+
+    <!-- Blog entries -->
+    <div class="w3-col">
+    
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h2>'ALL SPORTS'</h2>
+          <h5>ILLUSTRATOR, INDESIGN, PHOTOSHOP <span class="w3-opacity">SEPTEMBER 2016</span></h5>
+        </div>
+
+        <div class="w3-center">
+          <img src="img/AllSportsPrintReady.png" alt="Girl Hat" style="width:100%" class="w3-padding-16">
+          <p>Designed for home athletic events</p>
+          </div>
+          </div>
+        </div>
+      <hr>
+
+
+
+    <div class="w3-col">
+    
+      <!-- Blog entry RIZZO-->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h2>'OVER THE WALL, RIZZO'</h2>
+          <h5>PHOTOSHOP<span class="w3-opacity">MAY 2016</span></h5>
+        </div>
+
+        <div class="w3-center">
+          <img src="img/LiveAuction.Rizzo.png" alt="RIZZO" style="width:100%" class="w3-padding-16">
+          <p>Designed for live auction item display</p>
+          </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+      
+
+      
+
+      
+<!-- Footer -->
+<footer class="w3-container w3-dark-grey" style="padding:32px">
+  <a href="#" class="w3-button w3-black w3-padding-large w3-margin-bottom"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+</footer>
+
+<script>
+// Toggle between hiding and showing blog replies/comments
+document.getElementById("myBtn").click();
+function myFunction(id) {
+    var x = document.getElementById(id);
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+
+function likeFunction(x) {
+    x.style.fontWeight = "bold";
+    x.innerHTML = "✓ Liked";
+}
+</script>
+
+</body>
+</html>
