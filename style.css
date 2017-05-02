@@ -1,0 +1,18 @@
+.pagewrapper{
+    text-transform: uppercase;
+    color: black;
+    
+    
+}
+
+
+.elipses-hover a:hover {
+    color: red;
+    
+}
+
+.elipses-hover a:link{
+    text-decoration:none;
+    
+    
+}
